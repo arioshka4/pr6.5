@@ -1,0 +1,14 @@
+body {
+    margin: 16px;
+  }
+  
+  #form {
+    display: flex;
+    flex-direction: column;
+    max-width: 256px;
+  }
+  
+  #form *:not(:last-child) {
+    margin-bottom: 8px;
+  }
+  
